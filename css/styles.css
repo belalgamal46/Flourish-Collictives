@@ -37,7 +37,7 @@ ul img {
 
 .hero {
   min-height: 88vh;
-  background-image: url("/images/pexels-hasan-albari-1229861.jpg");
+  background-image: url("images/pexels-hasan-albari-1229861.jpg");
   background-size: cover;
   background-position: center;
   color: white;
