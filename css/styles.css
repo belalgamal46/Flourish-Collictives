@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 4rem 4rem;
+  font-size: 1.8rem;
+}
+
+ul h1 {
+  font-family: "League Script", cursive;
+}
+
+ul img {
+  height: 4rem;
+}
+
+.hero {
+  min-height: 88vh;
+  background-image: url("/images/pexels-hasan-albari-1229861.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h2 {
+  text-align: center;
+  margin: 2rem;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 5rem;
+}
+
+.hero button {
+  padding: 1.5rem 2.5rem;
+  background-color: #ad8c68;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 50vh;
+}
+
+.intro img {
+  width: 100%;
+}
+
+.intro-img {
+  flex: 1 1 25rem;
+  background-color: lightblue;
+}
+.intro-text {
+  flex: 1 1 25rem;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.intro-text p {
+  padding: 1.6rem;
+  text-align: center;
+}
